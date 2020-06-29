@@ -1,0 +1,180 @@
+/*992px - 1200px*/
+@media screen and (max-width: 1200px) {
+	.container{
+		width: 100%;
+	}
+	.my-photo{
+		margin-left: 80px;
+		margin-top: 80px;
+	}
+	.textbox{
+		padding-top: 30px;
+	}
+	.text{
+		font-size: 20px;
+		width: 80%;
+		padding-top: 30px;
+		padding-left: 80px;
+	}
+	.html, .css, .photoshop, .figma, .git, .lazy{
+		background-size: 40%;
+	}
+	.skill{
+		margin-top: 150px;
+		padding-top: 80px;
+		padding-bottom: 150px;
+		width: 130px;
+	}
+	.skill-title{
+		font-size: 24px;
+	}
+	.example{
+		margin-top: 50px;
+		margin-left: 30px;
+	}
+	.sites{
+		margin-top: 30px;
+		font-size: 14px;
+	}
+	.insta, .fb, .telega, .viber, .mail{
+		width: 130px;
+		background-size: 70%;
+		padding-top: 100px;
+	}
+	.dont-shy{
+		margin-top: 80px;
+		padding-bottom: 30px;
+	}
+	.contact{
+		background-size: 55%;
+	}
+}
+
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+	.header{
+		font-size: 18px;
+	}
+	h1{
+		padding-top: 100px;
+	}
+	.about-me__title{
+		padding-top: 50px;
+	}
+	.my-photo{
+		margin-left: 40px;
+		margin-top: 150px;
+	}
+	.textbox{
+		padding-top: 30px;
+	}
+	.text{
+		font-size: 20px;
+		width: 80%;
+		padding-top: 30px;
+		padding-left: 40px;
+	}
+	.example{
+		margin-top: 30px;
+		margin-left: 20px;
+	}
+
+}
+
+/*320px - 576px*/
+@media screen and (max-width: 576px) {
+	h1{
+		font-size: 36px;
+		padding-top: 20px;
+	}
+	.subject{
+		font-size: 24px;
+		padding-top: 30px;
+		padding-bottom: 80px;
+	}
+	.header{
+		font-size: 16px;
+		padding-bottom: 50px;
+		padding-top: 10px;
+	}
+	.about-me__title{
+		font-size: 26px;
+		font-weight: 600;
+	}
+	.myself{
+		background-image: url(../img/myself.jpg);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: 70%;
+	}
+	.my-photo{
+		display: none;
+	}
+	.textbox{
+		background-color: rgba(255, 255, 255, 0.75);
+	}
+	.text{
+		font-size: 16px;
+		font-weight: 600;
+		width: 90%;
+		padding-top: 15px;
+		padding-left: 20px;
+		text-align: center;
+	}
+	.skills__title{
+		font-size: 26px;
+		padding-top: 50px;
+		margin-top: 55px;
+	}
+	.skl{
+		background-size: 80%;
+	}
+	.my_skills{
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.html, .css, .photoshop, .figma, .git, .lazy{
+		background-size: 30%;
+	}
+	.skill-title{
+		font-size: 16px;
+	}
+	.skill{
+		margin-top: 30px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.jobs__title{
+		font-size: 26px;
+		padding-top: 50px;
+		margin-top: 10px;
+	}
+	.example{
+		width: 80%;
+		margin-top: 50px;
+		margin-left: 45px;
+	}
+	.connection{
+		font-size: 26px;
+		padding-top: 20px;
+		margin-top: 50px;
+	}
+	.sites{
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.insta, .fb, .telega, .viber, .mail{
+		background-size: 40%;
+		padding-top: 80px;
+		font-size: 12px;
+		font-weight: 600;
+	}
+	.dont-shy{
+		margin-top: 30px;
+		font-size: 18px;
+	}
+
+}

@@ -1,0 +1,260 @@
+body{
+	font-family: 'Poiret One', cursive;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+header{
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.header{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 24px;
+	background-color: rgba(255, 255, 255, 0.75);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.header-title{
+	background-color: rgba(255, 255, 255, 0.75);
+}
+.none{
+	padding: 10px;
+	padding-top: 6px;
+	font-weight: 600;
+	color: grey;
+}
+h1{
+	font-size: 72px;
+	text-align: center;
+	padding-top: 200px;
+}
+.subject{
+	font-size: 48px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+.about-me__title{
+	font-size: 48px;
+	text-align: center;
+	padding-top: 100px;
+}
+.my-photo{
+	width: 30%;
+	height: 30%;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin-left: 130px;
+	margin-top: 70px;
+}
+.text-about-me{
+	display: flex;
+}
+.textbox{
+	padding-top: 80px;
+}
+.text{
+	font-size: 20px;
+	width: 70%;
+	padding-top: 30px;
+	padding-left: 150px;
+	
+}
+.skills{
+	background-color: rgba(89, 89, 89, 0.75);
+}
+.skl{
+	background-image: url(../img/code.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.skills__title{
+	font-size: 48px;
+	text-align: center;
+	margin-top: 150px;
+	padding-top: 100px;
+	color: white;
+}
+.my_skills{
+	display: flex;
+	justify-content: space-around;
+}
+.skill{
+	margin-top: 100px;
+	padding-top: 150px;
+	padding-bottom: 250px;
+	width: 150px;
+	text-align: center;
+	color: white;
+}
+.html{
+	background-image: url(../img/html.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+.css{
+	background-image: url(../img/css.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+.photoshop{
+	background-image: url(../img/photoshop.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+.figma{
+	background-image: url(../img/figma.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+.git{
+	background-image: url(../img/git.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+.lazy{
+	background-image: url(../img/lazy.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+.skill-title{
+	font-size: 30px;
+}
+.jobs__title{
+	font-size: 48px;
+	padding-top: 100px;
+	text-align: center;
+}
+.examples{
+	width: 100%;
+}
+.example{
+	width: 45%;
+	margin-top: 100px;
+	margin-left: 45px;
+}
+.contact{
+	background-image: url(../img/mail-me.gif);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.phone{
+	background-color: rgba(255, 255, 255, 0.75);
+}
+.connection{
+	font-size: 48px;
+	margin-top: 100px;
+	padding-top: 50px;
+	text-align: center;
+}
+.sites{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+	font-size: 18px;
+}
+.insta{
+	background-image: url(../img/insta.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 150px;
+	width: 150px;
+	text-align: center;
+}
+.fb{
+	background-image: url(../img/fb.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 150px;
+	width: 150px;
+	text-align: center;
+}
+.telega{
+	background-image: url(../img/telega.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 150px;
+	width: 150px;
+	text-align: center;
+}
+.viber{
+	background-image: url(../img/viber.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 150px;
+	width: 150px;
+	text-align: center;
+	font-size: 15px;
+}
+.mail{
+	background-image: url(../img/mail.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 150px;
+	width: 150px;
+	text-align: center;
+}
+.dont-shy{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 26px;
+	padding-bottom: 100px;
+}
+.years{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+.footer{
+	width: 100%;
+	background-color: rgba(89, 89, 89, 0.75);
+}
+.none:hover{
+	color: white;
+	font-size: 26px;
+	background-color: rgba(130, 130, 130, 0.5);
+	border: 2px solid white;
+}
+.insta:hover{
+	font-size: 20px;
+}
+.fb:hover{
+	font-size: 20px;
+}
+.telega:hover{
+	font-size: 20px;
+}
+.viber:hover{
+	font-size: 20px;
+}
+
+
+.example{
+	-webkit-filter: brightness(40%);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.example:hover {
+	-webkit-filter: brightness(100%);
+}
+
+.animate__animated.animate__flipInX {
+  --animate-duration: 2s;
+}

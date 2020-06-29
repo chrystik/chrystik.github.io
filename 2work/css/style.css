@@ -1,0 +1,37 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url(../img/pexels-photo-1707213.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: blueviolet;
+}
+
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media (max-widht: 765px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: blueviolet;
+  }
+}
