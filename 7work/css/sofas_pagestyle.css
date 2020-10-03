@@ -1,0 +1,257 @@
+*{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Evolventa', sans-serif;
+  outline: none;
+}
+
+
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.product {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.product__list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product__element {
+  width: 333px;
+  margin-left: 40px;
+  margin-top: 70px;
+  box-sizing: border-box;
+}
+
+.product__img {
+  width: 333px;
+  height: 340px;
+}
+
+.product__name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 22px;
+}
+
+.product__price-number{
+  padding-left: 190px;
+}
+
+.product__price {
+  width: 97%;
+  text-align: left;
+  padding: 15px 5px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 15px;
+}
+
+.product__size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.product__size-element {
+  width: 45%;
+  border: 1px solid #e2e2e2;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.product__size-element_active {
+  background-color: #e2e2e2 !important;
+  color: #000;
+}
+
+
+.product__add-to-cart-button {
+  width: 100%;
+  height: 45px;
+  /*display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;*/
+  border: none;
+  -webkit-appearance: none;
+  border-radius: 2px;
+  background: #e2e2e2;
+  color: #333;
+  cursor: pointer;
+  margin: 15px 0 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-size: 16px;
+  outline: none;
+}
+
+.fa-cart-plus:before {
+    content: "\f217";
+}
+
+.product__add-to-cart-button:hover {
+  background: #333;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.product__add-to-cart-button .fas {
+  margin-right: 5px;
+}
+
+.smart-basket__min {
+  position: absolute;
+  top: 45px;
+  right: 50px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #fff;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.smart-basket__min span {
+  display: block;
+  border: 1px solid #333;
+  border-radius: 15px;
+  background-color: #333;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 23px;
+  font-size: 14px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
+}
+
+.smart-basket__min img {
+  margin-right: 5px;
+}
+
+.smart-basket__min-text {
+  margin-right: 5px;
+}
+@media (max-width: 1200px) {
+  .product__element {
+    width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .product__element {
+    width: 100%;
+  }
+}
+
+
+.footer{
+  margin-top: 100px;
+  width: 100%;
+  background-color: #f0f1f1;
+  text-align: center;
+  color: #000;
+}
+
+
+/* иконка стрелки (тег span) */
+
+
+#back-top {
+    position: fixed;
+    top: 92%;
+    left: 97%;
+}
+#back-top a {
+    width: 108px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    /* переход */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover {
+    color: #000;
+}
+#back-top span {
+    width: 38px;
+    height: 38px;
+    display: block;
+    background: url(../img/up.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    /* переход */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover span {
+    background-color: #777;
+    border-radius: 50%;
+}
+
+
+.smart-basket__product-name img{
+  width: 80px;
+}
+.smart-basket__product-size{
+  margin-left: 5px;
+}
+.smart-basket__product-id{
+  display: none;
+}
+.smart-basket__product-name{
+  margin-right: 120px;
+}
+.smart-basket__wrapper{
+  font-family: 'Evolventa', sans-serif;
+}

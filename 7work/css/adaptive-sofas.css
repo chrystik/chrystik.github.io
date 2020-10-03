@@ -1,0 +1,115 @@
+/*ДИВАНЫ*/
+
+
+
+
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px) {
+	.h1{
+		font-size: 30px;
+		font-weight: 200;
+	}
+	.smart-basket__min-icon{
+		width: 40px;
+		height: 40px;
+	}
+	.product__element{
+		width: 40%;
+		padding-left: 10%;
+	}
+	#back-top{
+		top: 90%;
+		left: 95%;
+	}
+}
+
+
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+	.product__img{
+		width: 250px;
+		height: 257px;
+	}
+	.product__name{
+		font-size: 14px;
+	}
+	.product__element{
+		width: 40%;
+		padding-left: 5%;
+	}
+	.product__price{
+		font-size: 14px;
+	}
+	.product__price-number{
+		padding-left: 160px;
+	}
+}
+
+
+
+/*320px - 576px*/
+@media screen and (max-width: 576px) {
+	.header{
+		margin-top: 80px;
+	}
+	.product__img{
+		width: 250px;
+		height: 257px;
+	}
+	.product__name{
+		font-size: 16px;
+	}
+	.product__element{
+		margin-top: 50px;
+		width: 70%;
+		padding-left: 5%;
+	}
+	.product__price{
+		font-size: 14px;
+	}
+	.product__price-number{
+		padding-left: 140px;
+	}
+	.smart-basket__min-icon{
+		width: 30px;
+		height: 30px;
+	}
+	.smart-basket__min{
+		top: 30px;
+		right: 25px;
+	}
+	.smart-basket__min span{
+		width: 15px;
+		height: 15px;
+		top: -5px;
+		right: -15px;
+	}
+	.smart-basket__min span{
+		font-size: 12px;
+		line-height: 16px;
+	}
+	#back-top{
+		top: 90%;
+		left: 90%;
+	}
+	#back-top span {
+		width: 25px;
+		height: 25px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header{
+		margin-top: 80px;
+	}
+	.h1{
+		font-size: 24px;
+	}
+	.product__element{
+		margin-top: 50px;
+		width: 76%;
+		padding-left: 0px;
+	}
+}

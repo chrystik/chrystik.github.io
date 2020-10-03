@@ -1,0 +1,570 @@
+/*ГЛАВНАЯ СТРАНИЦА*/
+
+
+/*1201-1440px*/
+@media screen and (max-width: 1440px) {
+	.burger-menu{
+		display: none;
+	}
+	.name-of-category{
+		top: 1850px;
+		left: -37%;
+		font-size: 24px;
+		margin-top: 30px;
+	}
+	.two{
+		top: 1850px;
+		left: 100px;
+	}
+	.form-information{
+		left: 40px;
+		width: 39%;
+	}
+	.callback-bt, .callback-btn {
+		right: 30px;
+	}
+}
+
+
+
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px) {
+	.burger-menu{
+		display: none;
+	}
+	.menu-item{
+		padding: 20px;
+		font-size: 14px;
+	}
+	.logo{
+		width: 150px;
+		height: 140px;
+	}
+	h1{
+		font-size: 60px;
+	}
+	.main-subtitle{
+		font-size: 24px;
+		margin-top: 45px;
+		margin-left: 5%;
+		width: 90%;
+	}
+	.about-us-subtitle{
+		padding-top: 70px;
+		font-size: 30px;
+	}
+	.about-us-text{
+		padding-left: 90px;
+		text-align: center;
+		font-size: 16px;
+		line-height: 1.7em;
+	}
+	.about-us-image{
+		width: 45%;
+		margin-top: 70px;
+		margin-left: 520px;
+	}
+	.products{
+		margin-top: 150px;
+	}
+	.section-title-name{
+		font-size: 30px;
+		padding-bottom: 50px;
+	}
+	.bean-bag-example, .sofa-example{
+		margin-left: 100px;
+	}
+	.name-of-category{
+		top: 1655px;
+		left: -400px;
+		font-size: 24px;
+		margin-top: 30px;
+	}
+	.two{
+		top: 1655px;
+		left: 80px;
+	}
+	.view{
+		margin-left: 150px;
+		margin-bottom: 70px;
+		font-size: 16px;
+	}
+	.about-rent-subtitle{
+		padding-top: 50px;
+		font-size: 30px;
+	}
+	.about-rent-text{
+		padding-top: 50px;
+		padding-bottom: 70px;
+		font-size: 16px;
+		line-height: 1.7em;
+	}
+	.rent-img{
+		width: 440px;
+		height: 300px;
+		filter: blur(2px);
+	}
+	.form-information{
+		width: 38%;
+		margin-top: 160px;
+		left: 5.5%;
+	}
+	.send{
+		margin-top: 15%;
+	}
+	.process-title{
+		padding-top: 10px;
+		font-size: 20px;
+	}
+	.bbag{
+		margin-bottom: 77px;
+	}
+	.find-us{
+		font-size: 30px;
+		margin-top: 20px;
+	}
+	.white-box{
+		top: -40px;
+		z-index: 2;
+		width: 40%;
+		background-color: #fff;
+		height: 80px;
+	}
+	.contact-p{
+		font-size: 16px;
+	}
+	.contact-us{
+		font-size: 24px;
+		margin-top: 140px;
+	}
+	.trust{
+		left: -270px;
+	}
+	.logos{
+		padding-top: 70px;
+		margin-top: 50px;
+		margin-left: 280px;
+	}
+	.double-img{
+		left: 60%;
+		top: 14%;
+	}
+	.callback-bt, .callback-btn {
+		width: 50px;
+		height:50px;
+		right: 25px;
+	}
+	.callback-btn .text-call-btn, .callback-bt .text-call{
+	    height:50px;
+	    width:50px;        
+	}
+	.callback-bt .text-call:hover span {
+	    font-size: 7px;
+	}
+	.callback-bt .text-call span {
+	    right: 0.5px;
+	    top: 13px;
+	}
+	.callback-btn .text-call-btn span {
+	    right: 0.5px;
+	    top: 13px;
+	}
+	.callback-btn .text-call-btn:hover span {
+        font-size: 7px;
+	}
+}
+
+
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+	.burger-menu{
+		display: none;
+	}
+	.menu{
+		margin-top: 30px;
+	}
+	.menu-item{
+		padding: 10px;
+		font-size: 12px;
+	}
+	.logo{
+		width: 100px;
+		height: 100px;
+		top: 20px;
+		left: 41.5%;
+	}
+	h1{
+		font-size: 44px;
+	}
+	.main-subtitle{
+		font-size: 18px;
+		margin-top: 70px;
+		margin-left: 5%;
+		width: 90%;
+	}
+	.about-us-subtitle{
+		padding-top: 30px;
+		font-size: 20px;
+	}
+	.about-us-text{
+		width: 80%;
+		padding-left: 45px;
+		text-align: center;
+		font-size: 14px;
+		line-height: 1.7em;
+		padding-bottom: 50px;
+	}
+	.about-us-image{
+		width: 311px;
+		margin-top: 45px;
+		margin-left: 400px;
+	}
+	.products{
+		margin-top: 100px;
+	}
+	.section-title-name{
+		font-size: 20px;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.bean-bag-example, .sofa-example{
+		margin-left: 80px;
+	}
+	.name-of-category{
+		top: 1370px;
+		left: -300px;
+		font-size: 16px;
+		margin-top: 30px;
+	}
+	.two{
+		top: 1370px;
+		left: 60px;
+	}
+	.view{
+		margin-left: 120px;
+		margin-bottom: 70px;
+		font-size: 16px;
+	}
+	.right-grey-box{
+		margin-top: 50px;
+	}
+	.about-rent-subtitle{
+		padding-top: 30px;
+		font-size: 20px;
+	}
+	.about-rent-text{
+		padding-top: 30px;
+		padding-bottom: 70px;
+		padding-left: 70px;
+		font-size: 12px;
+		line-height: 1.7em;
+	}
+	.rent-img{
+		top: 90px;
+		left: 20px;
+		width: 340px;
+		height: 200px;
+		filter: blur(2px);
+	}
+	.form-information{
+		width: 38%;
+		margin-top: 100px;
+		height: 180px;
+		left: 5.5%;
+	}
+	.send{
+		margin-top: 8%;
+	}
+	.process{
+		margin-top: 400px;
+	}
+	.process-title{
+		padding-top: 10px;
+		font-size: 20px;
+	}
+	.bbag{
+		margin-bottom: 77px;
+	}
+	.contacts-wrapper{
+		margin-top: 100px;
+		padding-bottom: 50px;
+	}
+	.find-us{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	.white-box{
+		top: -40px;
+		z-index: 2;
+		width: 40%;
+		background-color: #fff;
+		height: 80px;
+	}
+	.contact-p{
+		font-size: 14px;
+		margin-left: -20px;
+	}
+	.contact-us{
+		font-size: 20px;
+		margin-top: 80px;
+		margin-left: -20px;
+	}
+	.trust{
+		left: -190px;
+	}
+	.logos{
+		padding-top: 110px;
+		margin-top: 0px;
+		margin-left: 180px;
+	}
+	.double-img{
+		left: 60%;
+		top: 23%;
+	}
+	.callback-bt, .callback-btn {
+		right: 25px;
+	}
+	#back-top {
+	    top: 12%;
+	    left: 93%;
+	    width: 38px;
+	}
+}
+
+
+
+/*320px - 576px*/
+@media screen and (max-width: 576px) {
+	.burger-menu{
+		display: block;
+	}
+	.menu{
+		margin-top: 15px;
+	}
+	.menu-item{
+		display: none;
+	}
+	.logo{
+		width: 200px;
+		height: 200px;
+		top: 100px;
+		left: 26%;
+	}
+	h1{
+		display: none;
+	}
+	.back-image{
+		height: 350px;
+	}
+	.main-subtitle{
+		font-size: 14px;
+		margin-top: 70px;
+		padding-top: 50px;
+		margin-left: 5%;
+		width: 90%;
+	}
+	.about-us{
+		margin-top: 100px;
+	}
+	.grey-box{
+		width: 100%;
+		background-color: rgba(240, 241, 241, 1);
+		z-index: 10;
+	}
+	.about-us-subtitle{
+		padding-top: 30px;
+		font-size: 20px;
+	}
+	.about-us-text{
+		width: 80%;
+		padding-left: 45px;
+		text-align: center;
+		font-size: 14px;
+		line-height: 1.7em;
+		padding-bottom: 50px;
+	}
+	.about-us-image{
+		width: 311px;
+		margin-top: 55px;
+		margin-left: 35px;
+	}
+	.products{
+		margin-top: 100px;
+	}
+	.section-title-name{
+		font-size: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.bean-bag-example, .sofa-example{
+		margin-left: 40px;
+	}
+	.name-of-category{
+		top: 218%;
+		left: -163px;
+		font-size: 10px;
+		margin-top: 30px;
+		letter-spacing: 2px;
+	}
+	.two{
+		top: 218%;
+		left: 30px;
+	}
+	.btn a{
+		line-height: 30px;
+	}
+	.view{
+		margin-left: 65px;
+		height: 30px;
+		margin-top: 20px;
+		margin-bottom: 70px;
+		font-size: 10px;
+	}
+	.right-grey-box{
+		margin-top: 10px;
+	}
+	.about-rent-subtitle{
+		padding-top: 20px;
+		font-size: 20px;
+	}
+	.about-rent-text{
+		padding-top: 20px;
+		padding-bottom: 50px;
+		padding-left: 35px;
+		font-size: 10px;
+		line-height: 1.7em;
+	}
+	.rent-img{
+		top: 70px;
+		left: 10px;
+		width: 180px;
+		height: 140px;
+		filter: blur(2px);
+	}
+	.form-information{
+		width: 180px;
+		margin-top: 70px;
+		height: 140px;
+		left: 10px;
+	}
+	.user-name, .user-mail, .user-phone, .user-messege, .send{
+		font-size: 10px;
+	}
+	.user-name, .user-mail{
+		width: 80%;
+	}
+	.send{
+		margin-top: 8%;
+	}
+	.process{
+		margin-top: 300px;
+	}
+	.process-title{
+		padding-top: 10px;
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	.bbag{
+		margin-bottom: 40px;
+	}
+	.contacts-wrapper{
+		margin-top: 50px;
+		padding-bottom: 50px;
+	}
+	.all-contacts{
+		padding-top: 70px;
+	}
+	.phones{
+		width: 90%;
+		margin-left: 10%;
+	}
+	.find-us{
+		font-size: 16px;
+		margin-top: 30px;
+	}
+	.map{
+		width: 90%;
+		margin-left: 2.5%;
+	}
+	.flex{
+		flex-direction: column;
+	}
+	.white-box{
+		top: -40px;
+		z-index: 2;
+		width: 40%;
+		background-color: #fff;
+		height: 80px;
+	}
+	.contact-p{
+		font-size: 14px;
+	}
+	.contact-us{
+		font-size: 20px;
+		margin-top: 50px;
+	}
+	.trust{
+		left: 60px;
+		top: 50px;
+		font-size: 20px;
+		transform: none;
+	}
+	.logos{
+		padding-top: 80px;
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.grey-line{
+		top: 130px;
+	}
+	.double-img{
+		display: none;
+	}
+	#back-top {
+	    top: 10px;
+	    right: 10px;
+	}
+	#back-top span {
+		width: 25px;
+	}
+	.callback-bt, .callback-btn {
+		width: 30px;
+		height:30px;
+		right: 15px;
+	}
+	.callback-btn {
+		bottom: 70px;
+	}
+	.callback-btn .text-call-btn, .callback-bt .text-call{
+	    height:30px;
+	    width:30px;     
+	    line-height: 3px;   
+	}
+	.callback-bt .text-call:hover span {
+	    font-size: 3px;
+	}
+	.callback-bt .text-call span {
+	    right: 0.5px;
+	    top: 3px;
+	}
+	.callback-btn .text-call-btn span {
+	    right: 0.5px;
+	    top: 3px;
+	}
+	.callback-btn .text-call-btn:hover span {
+        font-size: 3px;
+	}
+	.footer{
+		margin-top: 30px;
+	}
+}
+
+
+
+
+
+
+
