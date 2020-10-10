@@ -117,7 +117,7 @@ h1{
 	padding-bottom: 100px;
 	padding-left: 115px;
 	width: 70%;
-	text-align: center;
+	text-align: justify;
 	font-weight: 200;
 	line-height: 1.8em;
 }
@@ -289,6 +289,9 @@ h1{
 	font-size: 16px;
 	letter-spacing: 3px;
 }
+::placeholder {
+	color: #000;
+}
 .user-name, .user-mail{
 	width: 34.7%;
 	margin-top: 5%;
@@ -299,7 +302,7 @@ h1{
 }
 .send{
 	margin-top:10%;
-	color: #544f4f;
+	color: #000;
 }
 .send:hover{
 	color: #333;
@@ -313,10 +316,10 @@ h1{
 .process{
 	width: 100%;
 	background-color: #fff;
-	margin-top: 600px;
+	margin-top: 580px;
 }
 .process-title{
-	padding-top: 100px;
+	padding-top: 50px;
 	text-align: center;
 	font-size: 30px;
 	font-weight: 200;
@@ -353,7 +356,7 @@ h1{
 	position: relative;
 }
 .contacts-wrapper{
-	margin-top: 200px;
+	margin-top: 120px;
 	background-color: #f0f1f1;
 	width: 100%;
 	padding-bottom: 100px;

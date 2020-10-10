@@ -39,9 +39,63 @@ $('.like-btn').on('click', function() {
 });
 
 
+/*info-btn*/
 
+$('.info-icon').on('click', function() {
+   $('.info').fadeIn();
+});
+$('.close').on('click', function() {
+   $('.info').fadeOut();
+});
 
+$('.info-icon-1').on('click', function() {
+   $('.info-1').fadeIn();
+});
+$('.close').on('click', function() {
+   $('.info-1').fadeOut();
+});
 
+$('.info-icon-2').on('click', function() {
+   $('.info-2').fadeIn();
+});
+$('.close').on('click', function() {
+   $('.info-2').fadeOut();
+});
+
+$('.info-icon-3').on('click', function() {
+   $('.info-3').fadeIn();
+});
+$('.close').on('click', function() {
+   $('.info-3').fadeOut();
+});
+
+$('.info-icon-4').on('click', function() {
+   $('.info-4').fadeIn();
+});
+$('.close').on('click', function() {
+   $('.info-4').fadeOut();
+});
+
+$('.info-icon-5').on('click', function() {
+   $('.info-5').fadeIn();
+});
+$('.close').on('click', function() {
+   $('.info-5').fadeOut();
+});
+
+$('.info-icon-6').on('click', function() {
+   $('.info-6').fadeIn();
+});
+$('.close').on('click', function() {
+   $('.info-6').fadeOut();
+});
+
+$('.info-icon-7').on('click', function() {
+   $('.info-7').fadeIn();
+});
+$('.close').on('click', function() {
+   $('.info-7').fadeOut();
+});
 
 /*product-quantity*/
 
@@ -144,3 +198,12 @@ function burgerMenu(selector) {
 }
 
 burgerMenu('.burger-menu')
+
+
+/*slider*/
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+  	items:1
+  });
+});
