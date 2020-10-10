@@ -51,6 +51,11 @@
 
 /*320px - 576px*/
 @media screen and (max-width: 576px) {
+	.logo{
+		top:2%;
+		left: 38%;
+		width: 25%;
+	}
 	.header{
 		margin-top: 80px;
 	}
@@ -101,6 +106,11 @@
 }
 
 @media screen and (max-width: 320px) {
+	.logo{
+		top:2%;
+		left: 40%;
+		width: 25%;
+	}
 	.header{
 		margin-top: 80px;
 	}
