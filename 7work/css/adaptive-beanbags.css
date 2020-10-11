@@ -1,5 +1,8 @@
 /*КРЕСЛА_МЕШКИ*/
 
+
+
+
 @media screen and (max-width: 1199px) {
 	.info-icon, .info-icon-1, .info-icon-2, .info-icon-3, .info-icon-4, .info-icon-5, .info-icon-6, .info-icon-7 {
 		left: 390px;
@@ -31,6 +34,12 @@
 
 /*992px - 1200px*/
 @media screen and (max-width: 1023px) {
+	.logo{
+		width: 150px;
+	}
+	.logo:hover{
+		width: 160px;
+	}
 	.h1{
 		font-size: 30px;
 		font-weight: 200;
@@ -84,6 +93,12 @@
 		padding-bottom: 20px;
 		background-color: rgba(255, 255, 255, 0.75);
 	}
+	.search{
+	  width: 15%;
+	  position: absolute;
+	  top: 43px;
+	  right: 17%;
+	}
 }
 
 /*320px - 576px*/
@@ -136,6 +151,12 @@
 	#back-top span {
 		width: 25px;
 		height: 25px;
+	}
+	.search{
+	  width: 35%;
+	  position: absolute;
+	  top: 70px;
+	  right: 32%;
 	}
 }
 
