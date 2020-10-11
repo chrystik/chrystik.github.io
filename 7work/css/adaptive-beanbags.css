@@ -1,9 +1,36 @@
 /*КРЕСЛА_МЕШКИ*/
 
-
+@media screen and (max-width: 1199px) {
+	.info-icon, .info-icon-1, .info-icon-2, .info-icon-3, .info-icon-4, .info-icon-5, .info-icon-6, .info-icon-7 {
+		left: 390px;
+	}
+	.popup{
+		top: 130px;
+		width: 333px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: rgba(255, 255, 255, 0.75);
+	}
+	.h1{
+		font-size: 30px;
+		font-weight: 200;
+	}
+	.smart-basket__min-icon{
+		width: 40px;
+		height: 40px;
+	}
+	.product__element{
+		width: 40%;
+		padding-left: 10%;
+	}
+	#back-top{
+		top: 90%;
+		left: 95%;
+	}
+}
 
 /*992px - 1200px*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1023px) {
 	.h1{
 		font-size: 30px;
 		font-weight: 200;
@@ -39,13 +66,25 @@
 	}
 	.product__price{
 		font-size: 14px;
+		width: 96%;
 	}
 	.product__price-number{
 		padding-left: 160px;
 	}
 }
 
-
+@media screen and (max-width: 768px) {
+	.info-icon, .info-icon-1, .info-icon-2, .info-icon-3, .info-icon-4, .info-icon-5, .info-icon-6, .info-icon-7 {
+		left: 270px;
+	}
+	.popup{
+		top: 50px;
+		width: 250px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: rgba(255, 255, 255, 0.75);
+	}
+}
 
 /*320px - 576px*/
 @media screen and (max-width: 576px) {
@@ -67,9 +106,10 @@
 	}
 	.product__price{
 		font-size: 14px;
+		width: 95%;
 	}
 	.product__price-number{
-		padding-left: 140px;
+		padding-left: 130px;
 	}
 	.smart-basket__min-icon{
 		width: 30px;
@@ -99,6 +139,17 @@
 	}
 }
 
+
+@media screen and (max-width: 375px) {
+	.product__price{
+		width: 94.5%;
+	}
+	.product__price-number{
+		padding-left: 100px;
+	}
+}
+
+
 @media screen and (max-width: 320px) {
 	.logo{
 		top:2%;
@@ -111,5 +162,14 @@
 	.product__element{
 		width: 76%;
 		padding-left: 0px;
+	}
+	.product__price{
+		width: 95%;
+	}
+	.product__price-number{
+		padding-left: 110px;
+	}
+	.info-icon, .info-icon-1, .info-icon-2, .info-icon-3, .info-icon-4, .info-icon-5, .info-icon-6, .info-icon-7 {
+		left: 220px;
 	}
 }
